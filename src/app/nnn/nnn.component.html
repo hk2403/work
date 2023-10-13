@@ -1,0 +1,30 @@
+<div class="parent">
+   <div>
+    <div class="dd-1">
+        <h2>Applied Filter</h2>
+        <div class="list-tags">
+            <div *ngFor="let dept of selectedDepartments" class="tag">
+                {{dept}}
+            </div>
+
+        </div>
+        
+    </div>
+    <div class="dd-2">
+        <h2>Department</h2>
+        <input type="checkbox" id="Fullstack" value="Fullstack" (change)="toggleCheckbox('Fullstack')">
+        <label for="Fullstack">Fullstack</label>
+        <br>
+        <input type="checkbox" id="DataEngineer" value="Data Engineer" (change)="toggleCheckbox('Data Engineer')">
+        <label for="DataEngineer">Data Engineer</label>
+        <br>
+        <input type="checkbox" id="PowerBI" value="Power BI" (change)="toggleCheckbox('Power BI')">
+        <label for="PowerBI">Power BI</label>
+        <br>
+        <input type="checkbox" id="HR" value="Human Resource" (change)="toggleCheckbox('Human Resource')">
+        <label for="HR">Human Resource</label>
+      </div>
+      </div>
+      
+
+</div>

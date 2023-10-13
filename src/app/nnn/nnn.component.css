@@ -1,0 +1,25 @@
+.parent{
+    
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.dd-1{
+    height: 150px;
+}
+.list-tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: auto;
+    font-size: 14px;
+    padding: 7px;
+    margin: 5px;
+}

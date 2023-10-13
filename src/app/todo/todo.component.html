@@ -1,0 +1,20 @@
+
+<div class="parent">
+    <div class="child">
+        <div class="header">
+            <h2>To-Do App</h2>
+            <div class="add-div">
+                <input type="text" [(ngModel)]="t">
+                <button (click)="addTask()">Add</button>
+            </div>
+        </div>
+        <div class="content">
+            <div *ngFor="let task of tasks" class="taskss">
+                <input type="radio">
+                <label>{{task}}</label>
+                <button>del</button>
+            </div>
+
+        </div>
+    </div>
+</div>
